@@ -73,6 +73,8 @@ You're welcome (but not required) to go further:
 
 You have **1 week** from when you accept the challenge. Don't worry about polish — we value thoughtfulness, clarity, and how you approach collaboration.
 
+## Ask AI for Help
+Use whatever AI tool is in your toolbelt. If you don’t have any… I’ve got bad news for you 🙂
 ---
 
 Happy coding and buon appetito! 🍽️
