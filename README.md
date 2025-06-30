@@ -65,14 +65,13 @@ You're welcome (but not required) to go further:
 3. Include a `README.md` with:
    - Setup instructions
    - Anything you'd like us to know
-4. (Optional) Add a 1–2 min screen recording demo
-5. Share the GitHub repo with us
+4. After 1 week, we'll check the forks
 
 ---
 
 ## 🕒 Time Limit
 
-You have **72 hours** from when you accept the challenge. Don't worry about polish — we value thoughtfulness, clarity, and how you approach collaboration.
+You have **1 week** from when you accept the challenge. Don't worry about polish — we value thoughtfulness, clarity, and how you approach collaboration.
 
 ---
 
