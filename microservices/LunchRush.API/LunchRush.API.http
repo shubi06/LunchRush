@@ -1,0 +1,6 @@
+@LunchRush.API_HostAddress = http://localhost:5168
+
+GET {{LunchRush.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
