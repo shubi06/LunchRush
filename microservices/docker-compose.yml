@@ -1,0 +1,44 @@
+﻿version: '3.8'
+services:
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - lunchrush-network
+
+  lunchrush-api:
+    build:
+      context: ./LunchRush.API
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+    depends_on:
+      - redis
+    networks:
+      - lunchrush-network
+
+  lunchrush-api-dapr:
+    image: "daprio/daprd:1.15.6"
+    command: [
+      "./daprd",
+      "-app-id", "lunchrush-api",
+      "-app-port", "80",
+      "-components-path", "/components"
+    ]
+    volumes:
+      - ./config:/components
+    depends_on:
+      - lunchrush-api
+    network_mode: "service:lunchrush-api"
+
+volumes:
+  redis_data:
+
+networks:
+  lunchrush-network:

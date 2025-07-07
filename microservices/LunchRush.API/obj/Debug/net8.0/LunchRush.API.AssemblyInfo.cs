@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LunchRush.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb363948760091b0eb34bb07fcfef6a7d8cae435")]
 [assembly: System.Reflection.AssemblyProductAttribute("LunchRush.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LunchRush.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
